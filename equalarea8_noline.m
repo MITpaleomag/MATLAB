@@ -19,6 +19,7 @@ function equalarea8_noline(coord, n, inc, dec, circinc, circdec, circdiam)
     %were CW instead of CCW
     
     
+    
     if nargin < 4
         %load data file in CW Caltech paleomag format.
         %file must be pre-edited so that the demag level column has a number!  For instance, a '0' must be added to column after NRM, a number must be added to column after high AF steps, etc.
